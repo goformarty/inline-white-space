@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Block vs Inline</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h2>White space in inline-block</h2>
+	<h4>Original</h4>
+	<ul>
+		<li>One</li>
+		<li>Two</li>
+		<li>Three</li>
+		<li>Four</li>
+	</ul>
+	<br />
+	<h4>Fixed by adding html comments</h4>
+	<ul>
+		<li>One</li><!--
+		--><li>Two</li><!--
+		--><li>Three</li><!--
+		--><li>Four</li>
+	</ul>
+	<br />
+	<h4>Fixed by CSS margin-right</h4>
+	<ul id="fix-margin-right">
+		<li>One</li>
+		<li>Two</li>
+		<li>Three</li>
+		<li>Four</li>
+	</ul>
+	<br />
+</body>
+</html>
